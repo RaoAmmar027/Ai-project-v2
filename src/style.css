@@ -1,0 +1,73 @@
+
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body{
+  background:#0e113b;
+  scrollbar-width: thin; /* Custom scrollbar for Firefox */
+  scrollbar-color: #003366 #003366; /* Custom scrollbar for Firefox */
+  /* Custom scrollbar for WebKit (Chrome, Safari) */
+  &::-webkit-scrollbar {
+    width: 8px; /* Set the width of the scrollbar */
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #003366; /* Color of the scrollbar thumb */
+    border-radius: 4px; /* Radius of the scrollbar thumb */
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #001f4d; /* Color of the scrollbar thumb on hover */
+  }
+}
+.Overlay {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(238, 234, 235, 0.7);
+}
+
+.customContainer{
+  background: hsla(264, 100%, 4%, 0.7);
+}
+.carousel-root{
+  outline: none;
+
+}
+.thumbs {
+  display: none;
+}
+.animated{
+  display: none;
+}
+.jcLxsg {
+  padding: 0;
+}
+.slider-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-status{
+  display: none;
+}
+.control-arrow{display: none;}
+
+.control-next{display: none;}
+
+.react-responsive-modal-modal{
+
+  width: 1016px;
+height: 265px;
+top: 112px;
+
+border-radius: 16px;
+gap: 8px;
+
+}
+.react-responsive-modal-closeButton{
+  display: none;
+}
